@@ -9,7 +9,6 @@ body {
 .postcard {
 	background-color: white;
 	width: 400px;
-	height: 250px;
 	margin: auto;
 }
 
@@ -56,6 +55,9 @@ p {
 }
 
 .postcard-footer {
+	display: flex;
+	align-content: center;
+	justify-content: center;
 	text-align: center;
 }
 
@@ -63,6 +65,8 @@ p {
 	background-color: #f0f0f0;
 	border-radius: 5px;
 	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .postcard-footer button:hover {
